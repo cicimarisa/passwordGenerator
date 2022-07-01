@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+	background: #1C1C1C;
+	color: #ffffff;
+	font-family: 'Karla', sans-serif;
+	font-weight: 200;
+}
+.container{
+	background: #1F2937;
+	margin: 2% auto;
+	max-width: 550px;
+    
+}
+#higlight-title{
+	color: #4ADF86;
+}
+.section{
+	padding: 100px 50px;
+}
+.section h1{
+	margin: 0;
+}
+#generate-password{
+	width: 191px;
+	height: 42px;
+	background: #10B981;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	margin: 60px 0;
+}
+
+#stroke{
+	border-bottom: 3px solid #2F3E53;
+	max-width: 450px;
+	height: 0;
+    margin: 0 0 30px 0;
+}
+
+.generated-pass{
+	background: #273549;
+	width: 211px;
+	height: 39px;
+	border-radius: 5px;
+    text-align: center;
+}
+
+.generated-pass p{
+	margin: 10px auto;
+}
+
+#generated-pass-container{
+    display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+	#generated-pass-container{
+		flex-direction: column;
+	}
+    .generated-pass{
+        margin-top: 20px;
+    }
+}
